@@ -50,10 +50,10 @@ class Board
     end
 
     line_render = data_render.map do |sub|
-      "".center(24).concat(sub.join("║︎"))
+      "".center(22).concat(sub.join("|"))
     end
 
-    puts line_render.join("\n#{"═︎═︎═︎╬︎═︎═︎═︎╬︎═︎═︎═︎".center(70)}\n")
+    puts line_render.join("\n#{"---+---+---".rjust(33)}\n")
   end
 
   private
