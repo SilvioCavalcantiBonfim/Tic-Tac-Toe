@@ -1,7 +1,0 @@
-{
-    "files.defaultLanguage": "Ruby",
-    "workbench.editor.autoLockGroups": {
-        "mainThreadWebview-simpleBrowser.view": false,
-        "mainThreadWebview-browserPreview": false
-    }
-}
